@@ -1,0 +1,3 @@
+[submodule "ddd-shared"]
+	path = ddd-shared
+	url = https://github.com/vitalyzotov/ddd-shared.git
