@@ -1,3 +1,45 @@
 [submodule "ddd-shared"]
 	path = ddd-shared
 	url = https://github.com/vitalyzotov/ddd-shared.git
+[submodule "gov-model"]
+	path = gov-model
+	url = https://github.com/vitalyzotov/gov-model.git
+[submodule "money"]
+	path = money
+	url = https://github.com/vitalyzotov/money.git
+[submodule "person-model"]
+	path = person-model
+	url = https://github.com/vitalyzotov/person-model.git
+[submodule "calendar-model"]
+	path = calendar-model
+	url = https://github.com/vitalyzotov/calendar-model.git
+[submodule "loan-model"]
+	path = loan-model
+	url = https://github.com/vitalyzotov/loan-model.git
+[submodule "banking-model"]
+	path = banking-model
+	url = https://github.com/vitalyzotov/banking-model.git
+[submodule "cashreceipt-model"]
+	path = cashreceipt-model
+	url = https://github.com/vitalyzotov/cashreceipt-model.git
+[submodule "purchases-model"]
+	path = purchases-model
+	url = https://github.com/vitalyzotov/purchases-model.git
+[submodule "accounting-model"]
+	path = accounting-model
+	url = https://github.com/vitalyzotov/accounting-model.git
+[submodule "accounting-module"]
+	path = accounting-module
+	url = https://github.com/vitalyzotov/accounting-module.git
+[submodule "alfabank-module"]
+	path = alfabank-module
+	url = https://github.com/vitalyzotov/alfabank-module.git
+[submodule "tinkoff-module"]
+	path = tinkoff-module
+	url = https://github.com/vitalyzotov/tinkoff-module.git
+[submodule "gpb-module"]
+	path = gpb-module
+	url = https://github.com/vitalyzotov/gpb-module.git
+[submodule "accounting"]
+	path = accounting
+	url = https://github.com/vitalyzotov/accounting.git

@@ -6,11 +6,25 @@
 
     <groupId>ru.vzotov</groupId>
     <artifactId>accounting-parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.129</version>
     <packaging>pom</packaging>
     <name>[Parent] accounting</name>
 
     <modules>
         <module>ddd-shared</module>
+        <module>gov-model</module>
+        <module>money</module>
+        <module>person-model</module>
+        <module>calendar-model</module>
+        <module>loan-model</module>
+        <module>banking-model</module>
+        <module>cashreceipt-model</module>
+        <module>purchases-model</module>
+        <module>accounting-model</module>
+        <module>accounting-module</module>
+        <module>alfabank-module</module>
+        <module>tinkoff-module</module>
+        <module>gpb-module</module>
+        <module>accounting</module>
     </modules>
 </project>
