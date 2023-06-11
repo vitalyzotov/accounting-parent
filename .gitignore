@@ -24,3 +24,5 @@ hs_err_pid*
 replay_pid*
 
 .idea/
+/setenv.bat
+/login.ps1

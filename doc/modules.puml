@@ -1,0 +1,61 @@
+@startuml
+rectangle "application" as app {
+    component accounting
+}
+rectangle "modules" as mod {
+    component "gpb-module"
+    component "tinkoff-module"
+    component "alfabank-module"
+    component "accounting-module"
+}
+rectangle "app-models" as apmod {
+[accounting-model]
+[purchases-model]
+[cashreceipt-model]
+[banking-model]
+[loan-model]
+[calendar-model]
+[person-model]
+[money-model]
+[gov-model]
+}
+
+rectangle shared as sh {
+[ddd-shared]
+}
+
+app --> mod
+app --> sh
+apmod --> sh
+mod --> sh
+
+"tinkoff-module" --> "accounting-module"
+"alfabank-module" --> "accounting-module"
+"gpb-module" --> "accounting-module"
+
+"loan-model" --> "money-model"
+"loan-model" --> "calendar-model"
+
+"purchases-model" --> "gov-model"
+"purchases-model" --> "money-model"
+"purchases-model" --> "cashreceipt-model"
+
+"cashreceipt-model" --> "gov-model"
+"cashreceipt-model" --> "money-model"
+"cashreceipt-model" --> "person-model"
+
+"accounting-model" --> "gov-model"
+"accounting-model" --> "money-model"
+"accounting-model" --> "loan-model"
+"accounting-model" --> "banking-model"
+"accounting-model" --> "calendar-model"
+"accounting-model" --> "cashreceipt-model"
+"accounting-model" --> "purchases-model"
+
+"banking-model" --> "gov-model"
+"banking-model" --> "money-model"
+"banking-model" --> "person-model"
+
+"accounting-module" --> "accounting-model"
+
+@enduml

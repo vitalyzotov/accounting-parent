@@ -1,5 +1,9 @@
 # accounting-parent
 
+## Module dependencies
+
+See docs/modules
+
 ## Development workflow
 
 #### Checkout main (master) branch of module
@@ -19,10 +23,12 @@ Git will merge any local changes.
 
 #### Create GitHub release
 
-    gh release create 1.1 -t v1.1 --generate-notes
+    gh release create 2.0 -t v2.0 --generate-notes
 
 #### Wait until the release is published
 
     gh run watch
 
+#### Checkout tagged repo
 
+    git checkout 2.0
