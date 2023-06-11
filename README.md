@@ -2,7 +2,7 @@
 
 ## Module dependencies
 
-See docs/modules
+![](http://www.plantuml.com/plantuml/svg/3Sf13W8n20NGg-W1B7jlWxIP8Q7GqCyOFRs-zRkhYrKVbNOxWRMVHCdlTYZEUjKUAU4OZYOnwLAmVRw1k8X5eXpgnsDn_WTDLgSUGZDwsTXjrRGV)
 
 ## Development workflow
 
