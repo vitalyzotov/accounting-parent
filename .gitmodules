@@ -43,3 +43,6 @@
 [submodule "accounting"]
 	path = accounting
 	url = https://github.com/vitalyzotov/accounting.git
+[submodule "accounting-ai-module"]
+	path = accounting-ai-module
+	url = https://github.com/vitalyzotov/accounting-ai-module.git

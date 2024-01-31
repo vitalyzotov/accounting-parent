@@ -31,6 +31,7 @@
         <module>alfabank-module</module>
         <module>tinkoff-module</module>
         <module>gpb-module</module>
+        <module>accounting-ai-module</module>
         <module>accounting</module>
     </modules>
 </project>

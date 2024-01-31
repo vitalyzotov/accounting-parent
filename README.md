@@ -23,7 +23,10 @@ Git will merge any local changes.
 
 #### Create GitHub release
 
-    gh release create 2.0 -t v2.0 --generate-notes
+```powershell
+$tag=git describe --tags --abbrev=0;gh release create "$tag" -t "v$tag" --generate-notes
+```
+
 
 #### Wait until the release is published
 
