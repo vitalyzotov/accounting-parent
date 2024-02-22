@@ -23,6 +23,13 @@
 hs_err_pid*
 replay_pid*
 
+# vscode
+*.code-workspace
+
+# idea
 .idea/
+
+# misc
 /setenv.bat
-/login.ps1
+/*.ps1
+testing/
